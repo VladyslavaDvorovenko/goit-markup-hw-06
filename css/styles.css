@@ -136,7 +136,8 @@ body {
   fill: var(--primary-text-color);
   margin-right: 10px;
   align-self: center;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-header-icon.mail {
   width: 16px;
@@ -343,7 +344,8 @@ p {
   margin-bottom: 0px;
 }
 svg {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card-team-social {
   display: flex;
@@ -391,7 +393,8 @@ svg {
   align-items: center;
   justify-content: center;
   fill: #afb1b8;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:hover svg,
@@ -472,7 +475,7 @@ svg {
   justify-content: center;
   fill: var(--primary-white-color);
   background: rgba(255, 255, 255, 0.1);
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-footer-link:hover,
 .social-footer-link:focus {
@@ -560,7 +563,8 @@ svg {
   color: var(--title-text-color);
   cursor: pointer;
   background-color: var(--btn-bcg-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .buttons {
   display: flex;
@@ -578,7 +582,8 @@ svg {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button.primary:hover,
